@@ -1,0 +1,30 @@
+{
+    "name": "smkbd/recaptcha-checkbox",
+    "description": "Google reCAPTCHA v2 Checkbox",
+    "version": "v1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smkbd\\RecaptchaCheckbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Smk Ishtiak",
+            "email": "ishtiak777@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^10.0",
+        "ext-curl": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smkbd\\RecaptchaCheckbox\\RecaptchaCheckboxServiceProvider"
+            ]
+        }
+    }
+}
